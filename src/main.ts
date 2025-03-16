@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import './style.css'
+
 import App from './App.vue'
 import router from './router'
 import {
@@ -8,7 +9,13 @@ import {
   ModuleRegistry,
   TextFilterModule,
   NumberFilterModule,
-  // RowGroupingModule,
+  CsvExportModule,
+  ExternalFilterModule,
+  NumberEditorModule,
+  SelectEditorModule,
+  CheckboxEditorModule,
+  TextEditorModule,
+  RowSelectionModule,
 } from 'ag-grid-community'
 
 ModuleRegistry.registerModules([
@@ -16,7 +23,13 @@ ModuleRegistry.registerModules([
   ValidationModule,
   TextFilterModule,
   NumberFilterModule,
-  // RowGroupingModule,
+  CsvExportModule,
+  ExternalFilterModule,
+  NumberEditorModule,
+  SelectEditorModule,
+  CheckboxEditorModule,
+  TextEditorModule,
+  RowSelectionModule,
 ])
 const app = createApp(App)
 app.use(router)

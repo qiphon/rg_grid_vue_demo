@@ -1,6 +1,6 @@
 <template>
   <div class="group-table">
-    <h2>分组表格</h2>
+    <h2>分组表格 行分组不支持社区版</h2>
     <ag-grid-vue
       style="width: 100%; height: 400px"
       class="ag-theme-alpine"

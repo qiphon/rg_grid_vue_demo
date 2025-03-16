@@ -3,6 +3,10 @@ import BasicTablePage from '../views/BasicTablePage.vue'
 import SortFilterTablePage from '../views/SortFilterTablePage.vue'
 import GroupTablePage from '../views/GroupTablePage.vue'
 import ColumnGroupTablePage from '../views/ColumnGroupTablePage.vue'
+import TreeTablePage from '../views/TreeTablePage.vue'
+import CustomCellTablePage from '../views/CustomCellTablePage.vue'
+import EditableTablePage from '../views/EditableTablePage.vue'
+import ExportTablePage from '../views/ExportTablePage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -30,6 +34,26 @@ const router = createRouter({
       path: '/column-group',
       name: 'column-group',
       component: ColumnGroupTablePage,
+    },
+    {
+      path: '/tree',
+      name: 'tree',
+      component: TreeTablePage,
+    },
+    {
+      path: '/custom-cell',
+      name: 'custom-cell',
+      component: CustomCellTablePage,
+    },
+    {
+      path: '/editable',
+      name: 'editable',
+      component: EditableTablePage,
+    },
+    {
+      path: '/export',
+      name: 'export',
+      component: ExportTablePage,
     },
   ],
 })

@@ -6,6 +6,10 @@
       <router-link to="/sort-filter">排序筛选表格</router-link>
       <router-link to="/group">分组表格</router-link>
       <router-link to="/column-group">列分组表格</router-link>
+      <router-link to="/tree">树形表格</router-link>
+      <router-link to="/custom-cell">自定义单元格</router-link>
+      <router-link to="/editable">行选择与编辑</router-link>
+      <router-link to="/export">Excel导出</router-link>
     </nav>
     <router-view></router-view>
   </div>
